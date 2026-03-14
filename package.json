@@ -1,0 +1,27 @@
+{
+  "name": "@personal/encryption",
+  "version": "1.0.0",
+  "description": "Client-side encryption library used by Personal Hub. XSalsa20-Poly1305 via TweetNaCl with PBKDF2 key derivation and BIP39 recovery.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1",
+    "@scure/bip39": "^1.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/personal-encryption"
+  },
+  "keywords": ["encryption", "privacy", "client-side", "tweetnacl", "zero-knowledge"]
+}
