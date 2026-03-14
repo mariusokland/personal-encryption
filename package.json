@@ -18,7 +18,7 @@
     "typescript": "^5.4.0",
     "vitest": "^1.6.0"
   },
-  "license": "MIT",
+  "license": "AGPL-3.0-only",
   "repository": {
     "type": "git",
     "url": "https://github.com/YOUR_USERNAME/personal-encryption"
